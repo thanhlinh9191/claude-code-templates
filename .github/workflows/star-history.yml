@@ -1,9 +1,6 @@
 name: Update Star History
 
 on:
-  schedule:
-    # Every Monday at 4:00 AM UTC
-    - cron: '0 4 * * 1'
   workflow_dispatch: # Allow manual runs from the GitHub UI
 
 permissions:
